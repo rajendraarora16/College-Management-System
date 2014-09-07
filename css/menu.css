@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+
+HOW TO CREATE A CSS3 DROPDOWN menu2 [TUTORIAL]
+
+"How to create a CSS3 Dropdown menu2 [Tutorial]" was specially made for DesignModo by our friend Valeriu Timbuc.
+
+Links:
+http://vtimbuc.net/
+https://twitter.com/vtimbuc
+http://designmodo.com
+http://vladimirkudinov.com
+
+*/
+
+/* Reset */
+
+
+#menu2,
+#menu2 ul,
+#menu2 li,
+#menu2 a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+/* menu2 */
+#menu2 {	
+		width:850px;
+		height:33px;
+		margin:0px;
+		padding:2px;
+		font-size:13px;
+		vertical-align:top;
+		float:left;
+		border-top-right-radius:10px;
+	
+	/*background: -webkit-linear-gradient(top, #7b0100 0%,#7b0100 100%);
+	background: -moz-linear-gradient(top, #7b0100 0%,#7b0100 100%);
+	background: -o-linear-gradient(top, #7b0100 0%,#7b0100 100%);
+	background: -ms-linear-gradient(top, #7b0100 0%,#7b0100 100%);
+	background: linear-gradient(top, #7b0100 0%,#7b0100 100%);
+	*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#menu2 li:hover{
+	background:#000066;
+	color:#FF0;
+	
+}
+
+#li_menu{
+		width:84px;
+		text-align:center;
+		padding:0px;
+		margin:0px;
+	}
+	
+#li_submenu{
+		text-align:left;
+	}
+	
+#menu2 li {
+	position: relative;
+	list-style: none;
+	float: left;
+	display: block;
+	height: 34px;
+}
+
+/* Links */
+
+#menu2 li a {
+	display: block;
+	padding: 0 14px;
+	margin: 6px 0;
+	line-height: 28px;
+	text-decoration: none;
+	
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #9000;
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+#menu2 li:first-child a { border-left: none; }
+#menu2 li:last-child a{ border-right: none; }
+
+#menu2 li:hover > a { color: #FFFF00; }
+
+/* Sub menu2 */
+
+#menu2 ul {
+	position: absolute;
+	top: 40px;
+	left: 0;
+
+	opacity: 0;
+	
+	background: #0000FF;
+
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+
+	-webkit-transition: opacity .25s ease .1s;
+	-moz-transition: opacity .25s ease .1s;
+	-o-transition: opacity .25s ease .1s;
+	-ms-transition: opacity .25s ease .1s;
+	transition: opacity .25s ease .1s;
+}
+
+#menu2 li:hover > ul {
+	 opacity: 1; 
+}
+
+#menu2 ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+
+	-webkit-transition: height .25s ease .1s;
+	-moz-transition: height .25s ease .1s;
+	-o-transition: height .25s ease .1s;
+	-ms-transition: height .25s ease .1s;
+	transition: height .25s ease .1s;
+}
+
+#menu2 li:hover > ul li {
+	height: 34px;
+	overflow: visible;
+	padding: 0;
+}
+
+#menu2 ul li a {
+	width: 120px;
+	padding: 4px 0 4px 30px;
+	margin: 0;
+
+	border: none;
+	border-bottom: 1px solid #4F0002;
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('.././font/segoeuil.ttf');
+}

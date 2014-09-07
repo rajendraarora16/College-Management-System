@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('.././font/segoeuil.ttf');
+}
+
+body{
+	background-color: #c7c7c7;
+}
+
+.container {
+padding: 20px;
+}
+
+.container_language {
+float: right;
+padding: 15px;
+}
+
+.container_middle {
+margin-top: 80px;
+text-align: center;
+height: 560px;
+padding: 5px;
+}
+
+.container_picture {
+margin-top: 40px;
+}
+
+.container_show_post {
+padding: 5px;
+}
+
+.bottom_pos {
+text-align: center;
+margin-top: 400px;
+padding: 10px;
+}
+
+img{
+    -webkit-box-shadow: 0px 1px 22px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 1px 22px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 1px 22px 0px rgba(50, 50, 50, 0.75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.middle_text{
+    text-align: center;
+    font-family: 'Segoe UI Light';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.15em;
+    text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.text_para_home{
+    text-shadow: 0px 1px 18px rgba(150, 150, 150, 0.27);
+}
+
+.img_home_pos {
+padding: 25px;
+text-align: center;
+}
+
+span.header_pos {    
+margin-left: 35px;
+font-family: 'Segoe UI Light';
+font-weight: 100;
+font-style: normal;
+font-size: 3.10em;
+text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.dropdownmenu_container {
+text-align: center;
+}
+
+h1{
+font-family: 'Segoe UI Light';
+font-weight: 100;
+font-style: normal;
+font-size: 2.10em;
+text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.logout_btn {
+float: right;
+margin-top: 7px;
+margin-right: 7px;
+}
