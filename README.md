@@ -5,7 +5,7 @@ Bootstrap framework as stylish components. It looks pretty damn cool. I
 know this one have less security. But my aim is to make work inside
 database connectivity with their components.
 
-If you want the demo, Visit here:
+If you want to see demo, Visit here:
 
 http://www.rajendra.co.nf
 
