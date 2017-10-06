@@ -1,4 +1,4 @@
-College-management-system-using-php-to-mine-college
+College Management System
 ===================================================
 I made this project using php and Bootstrap framework during my college session.
 
