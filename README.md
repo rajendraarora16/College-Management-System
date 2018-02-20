@@ -4,9 +4,8 @@ I made this project using php and Bootstrap framework during my college session.
 
 If you want to see demo, Visit here:
 
-http://www.rajendra.co.nf
+# [DEMO](http://www.rajendra.co.nf)
 
-Username-> admin
+`Username: admin`
 
-
-password-> admin
+`password: admin`
